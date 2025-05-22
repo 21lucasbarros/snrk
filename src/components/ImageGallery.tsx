@@ -39,12 +39,12 @@ export default function ImageGallery({
         />
       </div>
 
-      <div className="flex space-x-2 overflow-x-auto pb-2">
+      <div className="flex justify-center space-x-2 overflow-x-auto pb-2">
         {images.map((image, index) => (
           <button
             key={index}
             onClick={() => onImageSelect(index)}
-            className={`relative flex-shrink-0 w-20 h-20 rounded-md overflow-hidden 
+            className={`relative flex-shrink-0 w-19 h-19 rounded-md overflow-hidden 
               ${
                 selectedImageIndex === index
                   ? "ring-2 ring-blue-500 ring-offset-2"
