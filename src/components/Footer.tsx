@@ -82,7 +82,7 @@ export default function Footer() {
           </div>
           <div className="border-t border-gray-200 pt-8 mt-8 text-center">
             <p className="text-base text-gray-500">
-              &copy; 2025 Sneaker Shop. Todos os direitos reservados.
+              &copy; 2025 SNRK Sneaker Shop. Todos os direitos reservados.
             </p>
           </div>
         </div>
